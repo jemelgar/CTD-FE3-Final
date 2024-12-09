@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.favoriteButton {
+  background: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.favoriteButton:hover {
+  background-color: #0056b3;
+}
+
+.favoriteActive {
+  background-color: #d9534f;
+}
+
+.details {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+}
+
+.details h2 {
+  margin-bottom: 20px;
+}
+
+.details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.types,
+.abilities,
+.stats {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.type {
+  display: inline-block;
+  background: #f8d030;
+  color: #fff;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.stats li {
+  margin: 5px 0;
+}
